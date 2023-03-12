@@ -1,0 +1,32 @@
+.comment__container {
+  width: 28rem;
+  padding: 0 2rem 2.3rem 2rem;
+}
+
+.comment__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: #000000;
+  margin-bottom: 3.8rem;
+}
+
+.comment__textarea {
+  width: 28rem;
+  height: 15rem;
+  resize: none;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444444;
+  border: 1px solid #E7E7E7;
+  padding: 0;
+  margin: 0;
+  padding-top: 1rem;
+}

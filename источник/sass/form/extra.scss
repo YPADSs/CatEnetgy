@@ -1,0 +1,64 @@
+.extra__container {
+  padding: 0 2rem 3.2rem 2rem;
+  width: 28rem;
+}
+
+.extra__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: #000000;
+  margin-bottom: 3.4rem;
+}
+
+.extra__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra__label {
+  margin-bottom: 1.3rem;
+}
+
+.extra__label:last-child {
+  margin-bottom: 3.4rem;
+}
+
+.extra__name {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.form__button {
+  background: #68b738;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 0.7rem 4.4rem;
+  margin-bottom: 2.1rem;
+  width: 28rem;
+}
+
+.extra__necessarily {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #000000;
+}
