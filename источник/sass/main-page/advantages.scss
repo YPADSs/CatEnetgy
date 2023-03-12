@@ -1,0 +1,41 @@
+.advantages__container {
+  width: 28rem;
+  padding: 0 2rem;
+}
+
+.advantages__item {
+  margin-bottom: 2rem;
+  padding: 2.4rem 3.3rem 2.2rem 2rem;
+  background: #f2f2f2;
+}
+
+.advantages__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.7rem;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 6.9rem;
+}
+
+.advantages__description {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #444444;
+}
+
+.advantages__catalog {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}

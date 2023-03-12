@@ -1,0 +1,122 @@
+.location__container {
+  width: 32rem;
+}
+
+.location__contacts {
+  display: flex;
+  padding: 2.6rem 2rem;
+  background: #FFFFFF;
+}
+
+.location__contacts--gray{
+  background: rgb(242,242,242);
+}
+
+.location__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.location__description {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #444444;
+}
+
+@media (min-width:768px) {
+  .location__container {
+  width: 76.8rem;
+}
+
+.location__contacts {
+  display: flex;
+  padding: 0 7rem;
+}
+
+.location__contacts--gray{
+  background: rgb(242,242,242);
+}
+
+.location__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  text-transform: uppercase;
+  color: #111111;
+  padding-top: 6rem;
+  padding-bottom: 5.5rem;
+}
+
+.location__description {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #444444;
+  padding-top: 5.6rem;
+  padding-bottom: 6.2rem;
+  text-align:end
+}
+}
+
+@media (min-width: 1440px) {
+  .location__container {
+    width: 144rem;
+  }
+
+  .location__contacts {
+    display: flex;
+    background: #FFFFFF;
+    padding: 0 8rem;
+    width: 40.5rem;
+  }
+
+  .location__title {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+    color: #111111;
+    padding-top: 6rem;
+    padding-bottom: 5.5rem;
+    margin-right: 8.7rem;
+  }
+
+  .location__description {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #444444;
+    padding-top: 5.6rem;
+    text-align:start;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .location__description strong {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #444444;
+    padding-bottom: 6.2rem;
+    text-align:start;
+    margin-top: 1.8rem;
+  }
+}
